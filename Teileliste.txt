@@ -1,0 +1,60 @@
+1 Raspybot=
+-Gehaeuse
+-2x Motor
+-2x Encoder
+-3x Jumperkabel
+-2x Sharp+Kabel
+-2x 3Pin connector für sharps
+-2x(optional) 4pin connector für Encoder
+-1x Kamera
+-1x Raspy
+-1x Platine
+-1x Usbkabel(zum zerschneiden)
+-1x (LCD 162C LED[mit adapterkabel(2reihig auf einreihig)(https://www.reichelt.com/Background-green/LCD-162C-LED/3/index.html?ACTION=3&LA=2&ARTICLE=31653&GROUPID=3005&artnr=LCD+162C+LED)]) LCD-Display
+-...
+Platinenteile:
+-2xBuzzer(variabel:Rastermaß:~3,6-7,4,Größe:Variabel abhängig von Raspy-USB
+und Raspy Anschluss(Physischer Platz)(~1cm durchmesser)
+	z.b.:	https://www.conrad.de/de/piezo-signalgeber-geraeusch-entwicklung-85-db-45-55-vpp-inhalt-1-st-1461348.html)
+-2x'normale' Diode für Buzzer
+
+-1x 2x20 Pin Buchsenleiste(zum Raspy)
+-1x 1x16  Pin Pinleiste(Display)
+-1x Attiny Sockel
+-1x 1x10 Pin Buchsenleiste
+-2x 1x7  Pin Buchsenleiste
+-1x Potentiometer - Bauform:pt6, 10 Kohm
+-1x Potentiometer - Bauform:pt6, 40 ohm(->so klein wie möglich-> Reichelt
+minimum:250ohm)
+
+-3x LED-Taster (http://katalog.we-online.de/de/em/PBTL_PUSH_BUTTON_SWITCH_THT?sid=6072f54595)
+-2x Schalter(https://www.reichelt.de/Switches-Slide/SS-25539-N/3/index.html?ARTICLE=105722)
+-1x µUSB connector(http://katalog.we-online.de/de/em/COM_MICRO_TYPE_B_VERTICAL?sid=bb17ccb894)
+
+-6x LEDs(3mm(2x2 Motorleisung(1xforwaerts,1xrueckwaerts),generelle Zustands Anzeigen)
+-1x Spannungsregler(http://www.reichelt.de/Wandler-bis-1-W/TSR-1-2450/3/index.html?ARTICLE=116850)
+-3x 3Pin,2x 4Pin, 2x 2Pin gewinkelte Pinleisten
+-2x(3x) 2Pin gerade Pinleiste
+-2x Akku-Anschluss(9V-Block und Batterie,Rastermaß:2,54mm)
+1x 2x2 Pinleiste(extra 5V Strom)
+1x 2x5 Pinleiste(extra 3V Strom)+1x 1x5 Pinleiste(Signale)
+
+-3x 1,5K Wiederstand
+-3x 2,7K Wiederstand
+-1x SIL 8-4 120ohm()
+-1x SIL 8-4 10ohm()
+-1x 9K Wiederstand
+-4x 470 ohm Wiederstand
+-1x 5K ohm Wiederstand
+-1x 4 ohm Wiederstand
+
+-2x Transistor npn (http://www.conrad.com/ce/en/product/1262957/Transistor-Fairchild-Semiconductor?ref=searchDetail)
+
+-1x 100nF Kondensator(Rastermass: 5mm)(z.b.: https://www.reichelt.de/Vielschicht-bedrahtet-X7R-10-/X7R-5-100N/3/index.html?ACTION=3&ARTICLE=22865)
+-1x 10µF Kondensator(radial,Rastermass:2mm, Durchmesser: 5mm)
+-2x 10µF Kondensator(axial,d:5mm,L:10mm;z.b.:https://www.conrad.de/de/elektrolyt-kondensator-axial-bedrahtet-10-f-63-v-20-x-l-45-mm-x-10-mm-vishay-2222-021-38109-1-st-446265.html)
+
+-2x Schotty-Diode(https://www.conrad.de/de/schottky-diode-gleichrichter-vishay-30bq015pbf-do-214ab-15-v-einzeln-163515.html)
+-1x Sicherung(https://www.conrad.de/de/ptc-sicherung-strom-i-h-2-a-8-v-l-x-b-x-h-473-x-341-x-085-mm-bourns-mf-msmf200-2-1-st-1055645.html)
+Optional:
+...

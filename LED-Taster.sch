@@ -1,0 +1,311 @@
+EESchema Schematic File Version 2
+LIBS:Echtzeitsystem-rescue
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:RaspiBot
+LIBS:led_button1
+LIBS:led_button2_rg
+LIBS:w_analog
+LIBS:w_connectors
+LIBS:w_device
+LIBS:w_logic
+LIBS:w_memory
+LIBS:w_microcontrollers
+LIBS:w_opto
+LIBS:w_relay
+LIBS:w_rtx
+LIBS:w_transistor
+LIBS:w_vacuum
+LIBS:Echtzeitsystem-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 5
+Title "RaspiBot Aufsatz LED-Taster Teil"
+Date "2017-03-02"
+Rev "2.2"
+Comp "RoboSchool TUC"
+Comment1 "Erstellt von Leander Herr"
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L GND #PWR028
+U 1 1 5833C79B
+P 3850 6250
+AR Path="/5833C79B" Ref="#PWR028"  Part="1" 
+AR Path="/5833BF05/5833C79B" Ref="#PWR031"  Part="1" 
+F 0 "#PWR031" H 3850 6000 50  0001 C CNN
+F 1 "GND" H 3855 6077 50  0000 C CNN
+F 2 "" H 3850 6250 50  0000 C CNN
+F 3 "" H 3850 6250 50  0000 C CNN
+	1    3850 6250
+	1    0    0    -1  
+$EndComp
+Text Label 2700 5950 0    60   ~ 0
+Red-2.4V-1
+$Comp
+L LED_Button2_RG D1
+U 1 1 5833C7D3
+P 3450 5950
+F 0 "D1" H 3475 6415 50  0000 C CNN
+F 1 "LED_Button2_RG" H 3475 6324 50  0000 C CNN
+F 2 "LEDButton:SW_PUSH-LED-WS-PBTL" H 3400 5900 50  0001 C CNN
+F 3 "" H 3400 5900 50  0000 C CNN
+	1    3450 5950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2550 5950 3150 5950
+Wire Wire Line
+	3800 6050 3850 6050
+Wire Wire Line
+	3750 5750 3850 5750
+Text GLabel 1750 5750 0    60   Input ~ 0
+LEDTASTER1-TASTER
+Wire Wire Line
+	3150 5750 1750 5750
+Text GLabel 1750 5950 0    60   Input ~ 0
+LEDTASTER1-RED
+Text GLabel 1750 6150 0    60   Input ~ 0
+LEDTASTER1-GREEN
+Wire Wire Line
+	1750 5950 2350 5950
+$Comp
+L GND #PWR029
+U 1 1 5833CE2F
+P 3800 1700
+AR Path="/5833CE2F" Ref="#PWR029"  Part="1" 
+AR Path="/5833BF05/5833CE2F" Ref="#PWR032"  Part="1" 
+F 0 "#PWR032" H 3800 1450 50  0001 C CNN
+F 1 "GND" H 3805 1527 50  0000 C CNN
+F 2 "" H 3800 1700 50  0000 C CNN
+F 3 "" H 3800 1700 50  0000 C CNN
+	1    3800 1700
+	1    0    0    -1  
+$EndComp
+Text Label 2650 1400 0    60   ~ 0
+Red-2.4V-3
+$Comp
+L LED_Button2_RG D3
+U 1 1 5833CE3D
+P 3400 1400
+F 0 "D3" H 3425 1865 50  0000 C CNN
+F 1 "LED_Button2_RG" H 3425 1774 50  0000 C CNN
+F 2 "LEDButton:SW_PUSH-LED-WS-PBTL" H 3350 1350 50  0001 C CNN
+F 3 "" H 3350 1350 50  0000 C CNN
+	1    3400 1400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2500 1400 3100 1400
+Wire Wire Line
+	3750 1500 3800 1500
+Wire Wire Line
+	3700 1200 3800 1200
+Text GLabel 1700 1200 0    60   Input ~ 0
+LEDTASTER3-TASTER
+Wire Wire Line
+	3100 1200 1700 1200
+Text GLabel 1700 1400 0    60   Input ~ 0
+LEDTASTER3-RED
+Text GLabel 1700 1600 0    60   Input ~ 0
+LEDTASTER3-GREEN
+Wire Wire Line
+	1700 1400 2300 1400
+$Comp
+L GND #PWR030
+U 1 1 5833CED7
+P 3850 4200
+AR Path="/5833CED7" Ref="#PWR030"  Part="1" 
+AR Path="/5833BF05/5833CED7" Ref="#PWR033"  Part="1" 
+F 0 "#PWR033" H 3850 3950 50  0001 C CNN
+F 1 "GND" H 3855 4027 50  0000 C CNN
+F 2 "" H 3850 4200 50  0000 C CNN
+F 3 "" H 3850 4200 50  0000 C CNN
+	1    3850 4200
+	1    0    0    -1  
+$EndComp
+Text Label 2700 6150 0    60   ~ 0
+Green-3,2V-1
+$Comp
+L LED_Button2_RG D2
+U 1 1 5833CEE5
+P 3450 3900
+F 0 "D2" H 3475 4365 50  0000 C CNN
+F 1 "LED_Button2_RG" H 3475 4274 50  0000 C CNN
+F 2 "LEDButton:SW_PUSH-LED-WS-PBTL" H 3400 3850 50  0001 C CNN
+F 3 "" H 3400 3850 50  0000 C CNN
+	1    3450 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2550 6150 3150 6150
+Wire Wire Line
+	3800 4000 3850 4000
+Wire Wire Line
+	3750 3700 3850 3700
+Text GLabel 1750 3700 0    60   Input ~ 0
+LEDTASTER2-TASTER
+Wire Wire Line
+	3150 3700 1750 3700
+Text GLabel 1750 3900 0    60   Input ~ 0
+LEDTASTER2-RED
+Text GLabel 1750 4100 0    60   Input ~ 0
+LEDTASTER2-GREEN
+Wire Wire Line
+	1750 6150 2350 6150
+Wire Wire Line
+	1700 1600 2300 1600
+Wire Wire Line
+	2500 1600 3100 1600
+Text Label 2700 3900 0    60   ~ 0
+Red-2.4V,2
+Wire Wire Line
+	2550 3900 3150 3900
+Wire Wire Line
+	1750 3900 2350 3900
+Text Label 2700 4100 0    60   ~ 0
+Green-3,2V-2
+Wire Wire Line
+	2550 4100 3150 4100
+Wire Wire Line
+	1750 4100 2350 4100
+$Comp
+L R-SIL_8NB R-GLED2
+U 4 1 5836AA45
+P 2400 1600
+F 0 "R-GLED2" V 2600 1600 50  0000 C CNN
+F 1 "10 Ω" V 2300 1600 50  0000 C CNN
+F 2 "w_pth_resistors:r-sil_8" H 2400 1600 60  0001 C CNN
+F 3 "" H 2400 1600 60  0000 C CNN
+	4    2400 1600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R-SIL_8NB R-GLED2
+U 2 1 5836AB87
+P 2450 4100
+F 0 "R-GLED2" V 2650 4100 50  0000 C CNN
+F 1 "10 Ω" V 2350 4100 50  0000 C CNN
+F 2 "w_pth_resistors:r-sil_8" H 2450 4100 60  0001 C CNN
+F 3 "" H 2450 4100 60  0000 C CNN
+	2    2450 4100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R-SIL_8NB R-GLED2
+U 3 1 5836ABF6
+P 2450 6150
+F 0 "R-GLED2" V 2650 6150 50  0000 C CNN
+F 1 "10 Ω" V 2350 6150 50  0000 C CNN
+F 2 "w_pth_resistors:r-sil_8" H 2450 6150 60  0001 C CNN
+F 3 "" H 2450 6150 60  0000 C CNN
+	3    2450 6150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R-SIL_8NB R-RLED2
+U 3 1 5836FC6E
+P 2450 3900
+F 0 "R-RLED2" V 2650 3900 50  0000 C CNN
+F 1 "120 Ω" V 2350 3900 50  0000 C CNN
+F 2 "w_pth_resistors:r-sil_8" H 2450 3900 60  0001 C CNN
+F 3 "" H 2450 3900 60  0000 C CNN
+	3    2450 3900
+	0    1    1    0   
+$EndComp
+$Comp
+L R-SIL_8NB R-RLED2
+U 2 1 5836FDF0
+P 2450 5950
+F 0 "R-RLED2" V 2650 5950 50  0000 C CNN
+F 1 "120 Ω" V 2350 5950 50  0000 C CNN
+F 2 "w_pth_resistors:r-sil_8" H 2450 5950 60  0001 C CNN
+F 3 "" H 2450 5950 60  0000 C CNN
+	2    2450 5950
+	0    1    1    0   
+$EndComp
+$Comp
+L R-SIL_8NB R-RLED2
+U 1 1 5836FF8F
+P 2400 1400
+F 0 "R-RLED2" V 2600 1400 50  0000 C CNN
+F 1 "120 Ω" V 2300 1400 50  0000 C CNN
+F 2 "w_pth_resistors:r-sil_8" H 2400 1400 60  0001 C CNN
+F 3 "" H 2400 1400 60  0000 C CNN
+	1    2400 1400
+	0    1    1    0   
+$EndComp
+$Comp
+L +3.3V #PWR034
+U 1 1 58876174
+P 3800 1100
+F 0 "#PWR034" H 3800 1060 30  0001 C CNN
+F 1 "+3.3V" H 3800 1210 30  0000 C CNN
+F 2 "" H 3800 1100 60  0001 C CNN
+F 3 "" H 3800 1100 60  0001 C CNN
+	1    3800 1100
+	1    0    0    -1  
+$EndComp
+Connection ~ 3800 1200
+Wire Wire Line
+	3800 1500 3800 1100
+$Comp
+L +3.3V #PWR035
+U 1 1 588763C4
+P 3850 3650
+F 0 "#PWR035" H 3850 3610 30  0001 C CNN
+F 1 "+3.3V" H 3850 3760 30  0000 C CNN
+F 2 "" H 3850 3650 60  0001 C CNN
+F 3 "" H 3850 3650 60  0001 C CNN
+	1    3850 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3.3V #PWR036
+U 1 1 588763EA
+P 3850 5700
+F 0 "#PWR036" H 3850 5660 30  0001 C CNN
+F 1 "+3.3V" H 3850 5810 30  0000 C CNN
+F 2 "" H 3850 5700 60  0001 C CNN
+F 3 "" H 3850 5700 60  0001 C CNN
+	1    3850 5700
+	1    0    0    -1  
+$EndComp
+Connection ~ 3850 3700
+Wire Wire Line
+	3850 4000 3850 3650
+Connection ~ 3850 5750
+Wire Wire Line
+	3850 6050 3850 5700
+$EndSCHEMATC

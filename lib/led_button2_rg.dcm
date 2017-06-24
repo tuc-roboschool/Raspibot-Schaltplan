@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LED_Button2_RG
+D Common Anode RGB LED
+K RGB LED
+$ENDCMP
+#
+#End Doc Library
